@@ -9,6 +9,7 @@ namespace WebApplication1.Models
         {
         }
 
+        public DbSet<Manager> Managers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
